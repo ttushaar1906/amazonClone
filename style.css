@@ -296,7 +296,9 @@
   ul {
       margin-top: 20px;
   }
-
+  ul li{
+    list-style: none;
+  }
   ul a {
       display: block;
       font-size: 1rem;
