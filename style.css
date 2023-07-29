@@ -360,7 +360,9 @@
           width: 30px;
           font-size: 10px;
       }
-
+      .search-select option{
+        font-size: 10px;
+      }
       .search-input {
           font-size: 10px;
       }
