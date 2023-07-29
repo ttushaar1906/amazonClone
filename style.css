@@ -121,16 +121,16 @@
       display: flex;
       color: white;
       align-items: center;
-      justify-content: space-evenly
+      justify-content: space-evenly;
   }
   .panel-opts a {
     text-decoration: none;
   }
   .panel-opts p {
       display: inline;
-      margin-left: 1rem;
       font-size: 1rem;
       color: white;
+      margin-left: 10px;
   }
 
   .panel-opts {
@@ -384,7 +384,8 @@ footer .footer-panel:hover{
 
       .panel-opts p {
           font-size: 10px;
-      }
+      margin-left: 5px;
+        }
 
       .panel-all i {
           font-size: 10px;
