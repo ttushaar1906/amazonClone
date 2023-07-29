@@ -159,6 +159,7 @@
 
   .home-msg a {
       color: #007185;
+      text-decoration: none;
   }
 
   /* ## shop section ##  */
@@ -251,6 +252,7 @@
       font-size: 1rem;
       margin-top: 1rem;
       color: #dddddd;
+      text-decoration: none;
   }
 
   .footer-p3 {
@@ -297,7 +299,6 @@
 
       .logo {
           background-size: 100%;
-          /* border: 2px solid wheat; */
           background-repeat: no-repeat;
       }
 
@@ -375,8 +376,8 @@
           font-size: 10px;
       }
 
+      /* ## home-section styling ## */
       .home-section {
-          /* background-size: 50%; */
           background-repeat: no-repeat;
           height: 200px;
       }
@@ -389,7 +390,7 @@
       /* ## shop section ## */
       .box {
           width: 25%;
-          height: 150px;
+          max-height: 170px;
       }
 
       .box h2 {
@@ -414,7 +415,7 @@
       }
 
       .footer-p2 {
-          height: 250px;
+          height: auto;
           flex-wrap: wrap;
       }
 
@@ -428,7 +429,7 @@
       }
 
       ul {
-          width: 23%;
+          width: 100px;
       }
 
       .footer-p3 {
@@ -452,5 +453,172 @@
       .copywrites {
           font-size: 10px;
           padding-top: 3px;
+      }
+  }
+
+  /* ## responsive 2 ## */
+  @media(min-width: 501px) and (max-width: 768px) {
+      .navbar {
+          height: 40px;
+
+      }
+
+      .nav-logo {
+          height: 30px;
+          width: 80px;
+      }
+
+      .logo {
+          height: 30px;
+          width: 100%;
+          background-size: 90%;
+          background-repeat: no-repeat;
+          background-position: 2px;
+      }
+
+      .address p {
+          font-size: 10px;
+          margin-left: 15px;
+      }
+
+      .add-icon p {
+          font-size: 10px;
+          margin-left: 5px;
+      }
+
+      .add-icon i {
+          font-size: 13px;
+      }
+
+      /* ### search bar ## */
+      .nav-search {
+          width: 300px;
+          height: 30px;
+          border-radius: 4px;
+      }
+
+      .search-select {
+          border-radius: 4px 0 0 4px;
+          width: 40px;
+          font-size: 10px;
+      }
+
+      .search-input {
+          font-size: 10px;
+      }
+
+      .search-logo {
+          width: 40px;
+          border-radius: 0 4px 4px 0;
+      }
+
+      /* ## signin ## */
+      .upperH {
+          font-size: 6px;
+      }
+
+      .lowerH {
+          font-size: 8px;
+      }
+
+      .nav-cart i {
+          font-size: 10px;
+      }
+
+      .nav-cart {
+          font-size: 10px;
+          font-weight: 400;
+      }
+
+      /* ## panel ## */
+      .panel {
+          height: 35px;
+      }
+
+      .panel-opts p {
+          font-size: 12px;
+      }
+
+      .panel-all i {
+          font-size: 12px;
+      }
+
+      .panel-all span {
+          font-size: 10px;
+      }
+
+      /* ## home-section styling ## */
+      .home-section {
+          background-repeat: no-repeat;
+          height: 280px;
+      }
+
+      .home-msg {
+          font-size: 10px;
+          text-align: center;
+      }
+
+      /* ## shop section ## */
+      .box {
+          height: 230px;
+          width: 28%;
+      }
+
+      .box h2 {
+          font-size: 10px;
+      }
+
+      .box a {
+          font-size: 10px;
+      }
+
+      /* ## footer ## */
+      footer {
+          margin-top: 10px;
+      }
+
+      .footer-panel {
+          height: 40px;
+      }
+
+      .footer-panel a {
+          font-size: 12px;
+      }
+
+      .footer-p2 {
+          height: auto;
+          flex-wrap: wrap;
+      }
+
+      ul p {
+          font-size: 14px;
+      }
+
+      ul a {
+          font-size: 12px;
+          margin-top: 10px;
+      }
+
+      ul {
+          width: 120px;
+      }
+
+      ul li {
+          padding: 1px;
+      }
+
+      .footer-p3 {
+          height: 60px;
+      }
+
+      .footer-p4 {
+          height: 55px;
+          padding-top: 20px;
+      }
+
+      .pages,
+      .copywrites {
+          font-size: 12px;
+          padding-top: 5px;
       }
   }
