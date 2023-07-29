@@ -123,9 +123,11 @@
       align-items: center;
       justify-content: space-evenly;
   }
+
   .panel-opts a {
-    text-decoration: none;
+      text-decoration: none;
   }
+
   .panel-opts p {
       display: inline;
       font-size: 1rem;
@@ -164,10 +166,12 @@
       color: #007185;
       text-decoration: none;
   }
-  .home-msg a:hover{
-    text-decoration: underline;
-    color: rgb(255, 72, 0);
-}
+
+  .home-msg a:hover {
+      text-decoration: underline;
+      color: rgb(255, 72, 0);
+  }
+
   /* ## shop section ##  */
   .shop-section {
       display: flex;
@@ -211,17 +215,20 @@
       padding: 10px;
       text-decoration: none;
   }
+
   .box a:hover {
-  color: rgb(255, 72, 0);
+      color: rgb(255, 72, 0);
   }
 
   /* ## footer ## */
   footer {
       margin-top: 15px;
   }
-footer .footer-panel:hover{
-    background-color: #4e6683;
-}
+
+  footer .footer-panel:hover {
+      background-color: #4e6683;
+  }
+
   .footer-panel {
       background-color: #37475a;
       color: white;
@@ -232,10 +239,10 @@ footer .footer-panel:hover{
       font-size: 1rem;
   }
 
- footer a{
-    color: white;
-    text-decoration: none;
- } 
+  footer a {
+      color: white;
+      text-decoration: none;
+  }
 
   .footer-p2 {
       background-color: #222f3d;
@@ -265,9 +272,11 @@ footer .footer-panel:hover{
       color: #dddddd;
       text-decoration: none;
   }
+
   ul a:hover {
-    text-decoration: underline;
+      text-decoration: underline;
   }
+
   .footer-p3 {
       background-color: #222f3d;
       border-top: 0.5px solid white;
@@ -298,12 +307,15 @@ footer .footer-panel:hover{
       text-align: center;
       padding-top: 5px;
   }
-.pages a{
-    padding: 3px;
-}
-.pages a:hover{
-    text-decoration: underline;
-}
+
+  .pages a {
+      padding: 3px;
+  }
+
+  .pages a:hover {
+      text-decoration: underline;
+  }
+
   /* ### Responsive ### */
   @media (max-width: 500px) {
       .navbar {
@@ -384,8 +396,8 @@ footer .footer-panel:hover{
 
       .panel-opts p {
           font-size: 10px;
-      margin-left: 5px;
-        }
+          margin-left: 5px;
+      }
 
       .panel-all i {
           font-size: 10px;
@@ -454,6 +466,8 @@ footer .footer-panel:hover{
       .footer-p3 {
           height: 50px;
           background-color: #222f3d;
+          border-top: 0.1px solid white;
+
       }
 
       .logo2 {
