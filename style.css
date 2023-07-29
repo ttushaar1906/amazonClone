@@ -123,11 +123,14 @@
       align-items: center;
       justify-content: space-evenly
   }
-
+  .panel-opts a {
+    text-decoration: none;
+  }
   .panel-opts p {
       display: inline;
       margin-left: 1rem;
       font-size: 1rem;
+      color: white;
   }
 
   .panel-opts {
@@ -161,7 +164,10 @@
       color: #007185;
       text-decoration: none;
   }
-
+  .home-msg a:hover{
+    text-decoration: underline;
+    color: rgb(255, 72, 0);
+}
   /* ## shop section ##  */
   .shop-section {
       display: flex;
@@ -205,12 +211,17 @@
       padding: 10px;
       text-decoration: none;
   }
+  .box a:hover {
+  color: rgb(255, 72, 0);
+  }
 
   /* ## footer ## */
   footer {
       margin-top: 15px;
   }
-
+footer .footer-panel:hover{
+    background-color: #4e6683;
+}
   .footer-panel {
       background-color: #37475a;
       color: white;
@@ -221,10 +232,10 @@
       font-size: 1rem;
   }
 
-  .footer-panel a {
-      text-decoration: none;
-      color: white;
-  }
+ footer a{
+    color: white;
+    text-decoration: none;
+ } 
 
   .footer-p2 {
       background-color: #222f3d;
@@ -254,7 +265,9 @@
       color: #dddddd;
       text-decoration: none;
   }
-
+  ul a:hover {
+    text-decoration: underline;
+  }
   .footer-p3 {
       background-color: #222f3d;
       border-top: 0.5px solid white;
@@ -281,11 +294,16 @@
 
   .pages,
   .copywrites {
-      font-size: 0.8rem;
+      font-size: 14px;
       text-align: center;
       padding-top: 5px;
   }
-
+.pages a{
+    padding: 3px;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
   /* ### Responsive ### */
   @media (max-width: 500px) {
       .navbar {
