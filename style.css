@@ -59,7 +59,6 @@
   .nav-search {
       display: flex;
       justify-content: space-evenly;
-      background-color: blue;
       width: 620px;
       height: 40px;
       border-radius: 5px;
@@ -162,7 +161,7 @@
       color: #007185;
   }
 
-  /* ## shop section ## */
+  /* ## shop section ##  */
   .shop-section {
       display: flex;
       justify-content: space-evenly;
@@ -170,95 +169,40 @@
       flex-wrap: wrap;
   }
 
+  .shop-content {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+      flex-wrap: wrap;
+  }
+
   .box {
-      height: 380px;
       width: 23%;
-      border: 2px solid black;
+      height: 350px;
+      margin: 10px;
       background-color: white;
-      padding: 20px 0 15px;
-      margin-top: 2rem;
   }
 
-  .shop-img1 {
-      background-image: url(./images/img2.jpg);
-      height: 300px;
+  .box h2 {
+      padding: 10px;
+  }
+
+  .box .img-content {
+      padding: 10px;
+  }
+
+  .box img {
       width: 100%;
       background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
+      object-fit: cover;
   }
 
-  .box-content {
-      margin: 0 10px 0 10px;
-  }
-
-  .shop-img2 {
-      background-image: url(./images/img4.jpg);
-      height: 300px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .shop-img3 {
-      background-image: url(./images/img5.jpg);
-      height: 300px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .shop-img4 {
-      background-image: url(./images/img6.jpg);
-      height: 280px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .shop-img5 {
-      background-image: url(./images/img7.jpg);
-      height: 300px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .shop-img6 {
-      background-image: url(./images/img8.jpg);
-      height: 280px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .shop-img7 {
-      background-image: url(./images/img9.jpg);
-      height: 280px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .shop-img8 {
-      background-image: url(./images/img10.jpg);
-      height: 280px;
-      width: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 1rem 0 1rem 0;
-  }
-
-  .box-content a {
+  .box a {
       color: #007185;
+      padding: 10px;
       text-decoration: none;
-      font-size: 1rem;
   }
 
   /* ## footer ## */
@@ -275,9 +219,10 @@
       justify-content: center;
       font-size: 1rem;
   }
-  .footer-panel a{
-    text-decoration: none;
-    color: white;
+
+  .footer-panel a {
+      text-decoration: none;
+      color: white;
   }
 
   .footer-p2 {
@@ -296,9 +241,11 @@
   ul {
       margin-top: 20px;
   }
-  ul li{
-    list-style: none;
+
+  ul li {
+      list-style: none;
   }
+
   ul a {
       display: block;
       font-size: 1rem;
@@ -316,7 +263,7 @@
       align-items: center;
   }
 
-  .logo {
+  .logo2 {
       background: url(./images/transparent\ logo.png);
       height: 50px;
       width: 130px;
@@ -335,4 +282,175 @@
       font-size: 0.8rem;
       text-align: center;
       padding-top: 5px;
+  }
+
+  /* ### Responsive ### */
+  @media (max-width: 500px) {
+      .navbar {
+          height: 25px;
+      }
+
+      .nav-logo {
+          height: 15px;
+          width: 40px;
+      }
+
+      .logo {
+          background-size: 100%;
+          /* border: 2px solid wheat; */
+          background-repeat: no-repeat;
+      }
+
+      .address p {
+          font-size: 5px;
+          margin-left: 8px;
+      }
+
+      .add-icon p {
+          font-size: 8px;
+          margin-left: 1px;
+      }
+
+      .add-icon i {
+          font-size: 10px;
+          margin-right: 2px;
+      }
+
+      /* ### search bar ## */
+      .nav-search {
+          width: 200px;
+          height: 20px;
+          margin-left: 2px;
+          border-radius: 3px;
+      }
+
+      .search-select {
+          border-radius: 3px 0 0 3px;
+          width: 30px;
+          font-size: 10px;
+      }
+
+      .search-input {
+          font-size: 10px;
+      }
+
+      .search-logo {
+          font-size: 10px;
+          width: 30px;
+          border-radius: 0 3px 3px 0;
+      }
+
+      /* ## signin ## */
+      .upperH {
+          font-size: 5.5px;
+      }
+
+      .lowerH {
+          font-size: 6px;
+      }
+
+      .nav-cart i {
+          font-size: 10px;
+      }
+
+      .nav-cart {
+          font-size: 6px;
+          font-weight: 400;
+      }
+
+      /* ## panel ## */
+      .panel {
+          height: 25px;
+      }
+
+      .panel-opts p {
+          font-size: 10px;
+      }
+
+      .panel-all i {
+          font-size: 10px;
+      }
+
+      .panel-all span {
+          font-size: 10px;
+      }
+
+      .home-section {
+          /* background-size: 50%; */
+          background-repeat: no-repeat;
+          height: 200px;
+      }
+
+      .home-msg {
+          font-size: 10px;
+          text-align: center;
+      }
+
+      /* ## shop section ## */
+      .box {
+          width: 25%;
+          height: 150px;
+      }
+
+      .box h2 {
+          font-size: 10px;
+      }
+
+      .box a {
+          font-size: 10px;
+      }
+
+      /* ## footer ## */
+      footer {
+          margin-top: 10px;
+      }
+
+      .footer-panel a {
+          font-size: 10px;
+      }
+
+      .footer-panel {
+          height: 30px;
+      }
+
+      .footer-p2 {
+          height: 250px;
+          flex-wrap: wrap;
+      }
+
+      ul p {
+          font-size: 10px;
+      }
+
+      ul a {
+          font-size: 8px;
+          margin-top: 10px;
+      }
+
+      ul {
+          width: 23%;
+      }
+
+      .footer-p3 {
+          height: 50px;
+          background-color: #222f3d;
+      }
+
+      .logo2 {
+          height: 30px;
+          background-size: 70%;
+          background-repeat: no-repeat;
+          background-position: 20px;
+      }
+
+      .footer-p4 {
+          height: 45px;
+          padding-top: 15px;
+      }
+
+      .pages,
+      .copywrites {
+          font-size: 10px;
+          padding-top: 3px;
+      }
   }
