@@ -104,10 +104,9 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.nav-setting{
-    display: none;
+.nav-setting {
+  display: none;
 }
-
 
 /* ## panel ## */
 .panel {
@@ -247,12 +246,11 @@ footer a {
   justify-content: space-evenly;
 }
 
-.footer-p2 ul{
-    width: 100%;
-    display: block;
-    padding: 16px;
+.footer-p2 ul {
+  width: 100%;
+  display: block;
+  padding: 16px;
 }
-    
 
 ul p {
   font-size: 1.2rem;
@@ -398,12 +396,16 @@ ul a:hover {
     font-weight: 400;
   }
 
-.nav-setting{
+  .nav-cart i {
+    font-size: 14px;
+  }
+  .nav-setting {
     display: block;
-}
-
+  }
   /* ## panel ## */
-  .panel {
+  .panel,
+  .address,
+  .Cart {
     display: none;
   }
 
@@ -475,7 +477,7 @@ ul a:hover {
     font-size: 16px;
   }
 
-.footer-p2 ul{
+  .footer-p2 ul {
     margin-top: 10px;
     padding: 10px;
   }
